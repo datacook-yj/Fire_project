@@ -11,7 +11,6 @@
 - 입력 격자: 64×64
 - 출력 격자: 1×64×64 산불 화점 확률지도
 - 주요 모델: U-Net
-- 주요 비교 흐름: 6채널 baseline → 13채널 terrain-aware 모델 → 14채널 terrain + accessibility 모델
 - 평가 기준: validation AUC-PR, F1, IoU, threshold
 - 원칙: feature 선택과 threshold 선택은 validation set에서만 수행하고, test set은 마지막 최종 평가에만 사용합니다.
 
